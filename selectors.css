@@ -1,0 +1,63 @@
+
+/* element selector */
+h1 {
+    color: brown;
+}
+
+
+
+
+
+button {
+    background-color: black;
+    color: white;
+}
+
+/* ICE */
+/* class selector */
+
+.b2 {
+    background-color: red;
+    color: white;
+}
+
+/* .b2 {
+    background-color: aqua;
+    color: red;
+} */
+
+#b3 {
+    background-color: greenyellow;
+    color: white;
+}
+
+/* button {
+    background-color: darkred !important
+} */
+
+
+
+.center{
+    text-align: center;
+    font-size: 30px;
+}
+
+.divkop {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    /* text-decoration:overline; */
+    line-height: 400%;
+    letter-spacing: 1px;
+}
+
+p {
+text-align: center;
+}
+.c2 {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 0px auto;
+}
+

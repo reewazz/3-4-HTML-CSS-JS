@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(2, 57, 2, 0.79);
+}
+
+
+.container{
+    display: grid;
+    margin: 100px;
+    grid-auto-rows: 200px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.box{
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    background-size: cover;
+    background-position: center;
+    background-color: #1510105a;
+    background-blend-mode: darken;
+    transition: all 1s ease-in-out;
+}
+
+.box:hover{
+    cursor: pointer;
+    background-position: top;
+    background-color:rgba(255, 255, 255, 0.526);
+}
+
+.rowspan{
+    grid-row: span 2;
+}
+
+.columnspan {
+    grid-column: span 2;
+}
+

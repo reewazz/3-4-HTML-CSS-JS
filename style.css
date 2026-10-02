@@ -1,0 +1,24 @@
+/* selector {
+    property : value
+} */
+
+h3 {
+    color: blue;
+    font-size: 40px;
+}
+
+h3 {
+    color: purple;
+}
+
+li {
+    color: red;
+}
+
+.abc {
+    color: brown;
+}
+
+#app {
+    color: coral;
+}

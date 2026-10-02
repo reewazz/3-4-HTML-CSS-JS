@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     background-size: cover;
+    background-position: center;
+    background-image: url("./image/background.jpg");
+    background-color: rgba(245, 243, 243, 0.263);
+    background-blend-mode: darken;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    text-align: center;
+    gap: 16px;
+    width: 400px;
+    padding: 24px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    box-shadow: 2px 2px 8px 3px rgba(255, 255, 255, 0.20);
+
+}
+
+input{
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+input::placeholder{
+    color: rgba(255, 255, 255, 0.598);
+}

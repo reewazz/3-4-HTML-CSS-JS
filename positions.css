@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 300vh;
+}
+.container{
+    height: 500px;
+    width: 300px;
+    background-color: beige;
+    margin: 10px auto;
+    /* position: relative; */
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+}
+
+.main{
+    /* background-color: coral; */
+    /* position: relative; */
+}
+
+.redbox {
+background-color: red;
+position: relative;
+/* left: 100px; */
+/* top: 100px; */
+/* bottom: 100px;
+right: 100px; */
+
+}
+
+.greenbox {
+background-color: green;
+position: fixed;
+right: 16px;
+bottom: 16px;
+
+}
+
+.bluebox {
+background-color: blue;
+position: absolute;
+bottom: 16px;
+right: 16px;
+z-index: -1;
+
+
+}
+
+.purplebox{
+    background-color: purple;
+    position: sticky;
+    top:100px
+}
+

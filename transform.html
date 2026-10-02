@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+body{
+    background-color: black;
+}
+           /* .box:hover {
+            transform: scale(2);
+            transform: rotate(360deg);
+            transform: skewX(20deg);
+            transform: scale(2) translateY(100px);
+        } */
+        .container {
+            height: 400px;
+            width: 400px;
+            background-color: black;
+            margin: 100px auto;
+            animation: rotation 4s ease-in-out infinite;
+            border-radius: 50%;
+            border: 1px solid white;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            transition: all 1s ease-in-out;
+            /* animation-name: moveAndRotate ; */
+            border-radius: 50%;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-timing-function: linear;
+   
+        }
+
+
+        @keyframes rotation {
+            from{
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes round {
+
+            0%,100% {
+                   transform: translate(0,0); 
+            }
+
+            25%{
+                    transform: translate(300px,0)
+            }
+            50%{
+                    transform: translate(300px,300px);
+            }
+            75% {
+                transform: translate(0,300px);
+            }
+
+        
+            
+        }
+
+        @keyframes moveAndRotate {
+    0%, 100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+
+    25% {
+        transform: translate(300px, 0) rotate(90deg);
+    }
+
+    50% {
+        transform: translate(300px, 300px) rotate(180deg);
+    }
+
+    75% {
+        transform: translate(0, 300px) rotate(270deg);
+    }
+}
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+        </div>
+    </div>
+    
+</body>
+</html>
